@@ -1,0 +1,72 @@
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#map{
+  padding:0;
+}
+
+#header{
+  font-size: 1.1em;
+  font-family: sans-serif;
+  padding-left: 1em;
+  padding-top:4px;
+  color:#660000;
+}
+
+#search {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 110px;
+  left: 67px;
+}
+
+#homeButton {
+  position: absolute;
+  z-index: 2;
+  top: 180px;
+  left: 27px;
+}
+
+.disabledContent {
+  pointer-events: none !important;
+  opacity: 0.4 !important;
+}
+.searchInput {
+   width: 180px !important;
+}
+.templatePicker {
+  border: none;
+}
+
+.templatePicker .grid .item {
+  background-color: white !important;
+  border: 2px solid #0f2f7f !important;
+  font-family: Regular, sans-serif !important;
+  color: #0f2f7f !important;
+  padding: 2px 2px !important;
+  font-size: 12px;
+}
+.dijitTitlePane {
+  margin-top: 280px !important;
+}
+.dijitTitlePane {
+  background-color: #FFFFFF;
+  border: 1px solid #57585A;
+  border-radius: 4px !important;
+}
+.dj_ie .infowindow .window .top .right .user .content { position: relative; }
+.dj_ie .simpleInfoWindow .content { position: relative; }
